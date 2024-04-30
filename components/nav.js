@@ -22,7 +22,7 @@ export default function Nav() {
                         <li className="self-center" key={`${href}${label}`}>
                             <Link
                                 href={href}
-                                className={`font-inter px-4 py-2 rounded hover:underline decoration-wavy decoration-[1.5px] dark:hover:bg-white hover:bg-opacity-10 dark:hover:bg-opacity-10`}>
+                                className={`font-inter px-4 py-2 rounded text-lg hover:underline decoration-wavy decoration-[1.5px] dark:hover:bg-white hover:bg-opacity-10 dark:hover:bg-opacity-10`}>
                                 {label}
                             </Link>
                         </li>

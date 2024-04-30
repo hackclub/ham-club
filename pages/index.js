@@ -10,10 +10,10 @@ export default function Home() {
       <main>
         <section
           id="hero"
-          className="h-fit flex flex-col items-center relative"
+          className="flex flex-col items-center relative"
         >
           <Nav />
-          <div className="my-28 flex flex-col gap-4 items-center text-center z-10">
+          <div className="my-16 flex flex-col gap-4 items-center text-center z-10">
             <h1 className="text-9xl">
               Ham
               <br />
@@ -24,10 +24,13 @@ export default function Home() {
               <br />
               get a free radio
             </p>
+            <a href="https://forms.hackclub.com/t/4xrbpF32B8us" target="_blank" className="uppercase px-4 py-2 rounded-full border-white border-2 text-center hover:bg-white hover:text-black">
+             Get your radio! 📻
+            </a>
           </div>
         </section>
-        <section className="min-h-screen w-screen">
-          <div className="flex flex-wrap gap-5 items-center justify-center *:text-black *:h-48 *:p-6 *:rounded-lg *:bg-white *:w-1/3 *:flex *:flex-col *:text-center *:items-center *:justify-center">
+        <section className="h-fit py-16 w-screen">
+          <div id="grid" className="flex flex-wrap gap-5 items-center justify-center *:text-black *:h-48 *:p-6 *:rounded-lg *:bg-white *:w-1/3 *:flex *:flex-col *:text-center *:items-center *:justify-center">
             <div>
               <h2>Radio Communication</h2>
               <p>

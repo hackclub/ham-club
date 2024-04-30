@@ -13,8 +13,23 @@ html {
   font-family: "Arial Rounded MT Bold", sans-serif;
 }
 
+body {
+  background-image: url('/buildings.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom;
+}
+
 div > h2 {
-  @apply font-bold text-xl;
+  @apply font-bold text-2xl;
+}
+
+div > p {
+  @apply text-lg;
+}
+
+div#grid > div {
+  @apply flex flex-col gap-3;
 }
 
 #hero h1 {
