@@ -72,6 +72,13 @@ export default function Help() {
             - After completing your studying, you will use this site to find a
             local exam session.
           </li>
+          <li>
+              <a href="https://apps.fcc.gov/cores/userLogin.do?csfrToken=" className="underline">
+                FCC FRN Registration
+              </a>{" "}
+              - Once you finish studying, you will need to get an FRN from the FCC in order to start the test in the first place.
+              You will need to register with the FCC in order to do this!
+          </li>
         </div>
       </div>
     </div>
