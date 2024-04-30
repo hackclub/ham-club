@@ -23,6 +23,12 @@ export default function Help() {
             </a>{" "}
             - This site has a long list of other resources and references.
           </li>
+          <li>
+            <a href="https://www.kb6nu.com/study-guides/" className="underline">
+              No-Nonsense Study Guides
+            </a>{" "}
+            - This is a resource from KB6NU which aims to make studying for the exam quick and easy.{" "}
+          </li>
         </div>
         <h1 className="text-2xl text-white">
           <u>Youtube Guides:</u>
