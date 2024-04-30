@@ -12,7 +12,7 @@ export default function Help() {
               Ham Study
             </a>{" "}
             - This is a highly recommended site that allows you to take practice
-            tests and to make{" "}
+            tests and find short explanations for each question.{" "}
           </li>
           <li>
             <a
@@ -22,6 +22,12 @@ export default function Help() {
               Ham Radio Academy Reference
             </a>{" "}
             - This site has a long list of other resources and references.
+          </li>
+          <li>
+            <a href="https://www.kb6nu.com/study-guides/" className="underline">
+              No-Nonsense Study Guides
+            </a>{" "}
+            - This is a resource from KB6NU which aims to make studying for the exam quick and easy.{" "}
           </li>
         </div>
         <h1 className="text-2xl text-white">
@@ -71,6 +77,13 @@ export default function Help() {
             </a>{" "}
             - After completing your studying, you will use this site to find a
             local exam session.
+          </li>
+          <li>
+              <a href="https://apps.fcc.gov/cores/userLogin.do?csfrToken=" className="underline">
+                FCC FRN Registration
+              </a>{" "}
+              - Once you finish studying, you will need to get an FRN from the FCC in order to start the test in the first place.
+              You will need to register with the FCC in order to do this!
           </li>
         </div>
       </div>
