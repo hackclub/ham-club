@@ -2,9 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
-html.dark {
-    color: #ffffff;
-    background-color: #000000;
+@font-face {
+  font-family: 'Cute Notes';
+  src: url('/CuteNotes.woff2')  format('woff2');
+}
+
+html {
+  color: #ffffff;
+  background: radial-gradient(50% 50% at 50% 50%, #FC7D47 0%, #FC6447 100%);
+  font-family: "Arial Rounded MT Bold", sans-serif;
+}
+
+div > h2 {
+  @apply font-bold text-xl;
+}
+
+#hero h1 {
+  font-family: "Cute Notes", sans-serif;
 }
 
 /* Fixes Tailwind h-screen on iPhones */
