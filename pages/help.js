@@ -12,7 +12,7 @@ export default function Help() {
               Ham Study
             </a>{" "}
             - This is a highly recommended site that allows you to take practice
-            tests and to make{" "}
+            tests and find short explanations for eaach question.{" "}
           </li>
           <li>
             <a
