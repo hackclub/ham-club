@@ -16,6 +16,7 @@ export default function HeadObject({children}) {
             <meta property="og:type" content="website" />
             <meta property="og:title" content={title} />
             <meta property="og:description" content={description} />
+            <script defer data-domain="ham.hackclub.com" src="https://plausible.io/js/script.js"></script>
             {children}
         </Head>
     )
