@@ -4,9 +4,9 @@ import { CgDarkMode } from 'react-icons/cg'
 import {useTheme} from 'next-themes'
 
 const links = [
-    { label: "Page 1", href: "/" },
-    { label: "Page 2", href: "/" },
-    { label: "Page 3", href: "/" },
+    { label: "Homepage", href: "/" },
+    { label: "Links/Resources", href: "/help" },
+    { label: "Get your radio!", href: "https://forms.hackclub.com/t/4xrbpF32B8us" },
 ]
 
 export default function Nav() {
