@@ -14,7 +14,7 @@ export default function Home() {
           className="flex flex-col items-center relative"
         >
           {/* <Nav /> */}
-          <div className="my-16 flex flex-col gap-4 items-center text-center z-10">
+          <div className="my-24 flex flex-col gap-4 items-center text-center z-10">
             <h1 className="text-9xl">
               Ham
               <br />
@@ -31,7 +31,7 @@ export default function Home() {
           </div>
         </section>
         <section className="h-fit py-16 w-screen">
-          <div id="grid" className="flex flex-col md:flex-wrap gap-5 items-center justify-center *:text-black *:h-48 *:p-6 *:mx-5 *:md:m-0 *:rounded-lg *:bg-white *:md:w-1/3 *:flex *:flex-col *:text-center *:items-center *:justify-center">
+          <div id="grid" className="grid grid-cols-1 lg:grid-cols-2 lg:w-2/3 mx-auto gap-5 items-stretch justify-center *:text-black *:p-6 *:grow p-5 *:rounded-lg *:bg-white *:flex *:flex-col *:text-center *:items-center *:justify-center">
             <div>
               <h2>Radio Communication</h2>
               <p>
