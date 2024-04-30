@@ -11,19 +11,17 @@ Our goal is to build a new type of library online that offers learners not just 
 
 Join the `#hamradio` channel on the [Hack Club Slack](https://hackclub.com/slack). 
 
-The Blot editor is run with an Express server.
-
-After installing `Git`, `Node.js`, and `Yarn`, clone the repo.
+After installing `Git`, `Node.js`, and `NPM`, clone the repo.
 
 ```
 git clone https://github.com/hackclub/ham-club/
-yarn install
+npm install
 ```
 
 To run the development server:
 
 ```
-yarn dev
+npm run dev
 ```
 
 # License
