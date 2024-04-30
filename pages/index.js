@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className="dark:text-white dark:bg-black">
       <HeadObject />
-      <img src="https://assets.hackclub.com/flag-orpheus-top.svg" className="absolute top-0 left-8 w-[14%]" />
+      <a href="https://hackclub.com"><img src="https://assets.hackclub.com/flag-orpheus-top.svg" className="absolute top-0 left-8 w-1/4 md:w-[14%]" /></a>
       <main>
         <section
           id="hero"
