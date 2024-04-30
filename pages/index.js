@@ -64,7 +64,7 @@ export default function Home() {
               <h2>Ham Radio Community</h2>
               <p>
                 Ham radio isn't just a hobby—it helps during emergencies, in
-                local events, and makes connections that inst a lifetime.
+                local events, and makes connections that last a lifetime.
               </p>
             </div>
             <div>
