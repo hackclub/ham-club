@@ -7,12 +7,13 @@ export default function Home() {
   return (
     <div className="dark:text-white dark:bg-black">
       <HeadObject />
+      <img src="https://assets.hackclub.com/flag-orpheus-top.svg" className="absolute top-0 left-8 w-[14%]" />
       <main>
         <section
           id="hero"
           className="flex flex-col items-center relative"
         >
-          <Nav />
+          {/* <Nav /> */}
           <div className="my-16 flex flex-col gap-4 items-center text-center z-10">
             <h1 className="text-9xl">
               Ham
@@ -30,7 +31,7 @@ export default function Home() {
           </div>
         </section>
         <section className="h-fit py-16 w-screen">
-          <div id="grid" className="flex flex-wrap gap-5 items-center justify-center *:text-black *:h-48 *:p-6 *:rounded-lg *:bg-white *:w-1/3 *:flex *:flex-col *:text-center *:items-center *:justify-center">
+          <div id="grid" className="flex flex-col md:flex-wrap gap-5 items-center justify-center *:text-black *:h-48 *:p-6 *:mx-5 *:md:m-0 *:rounded-lg *:bg-white *:md:w-1/3 *:flex *:flex-col *:text-center *:items-center *:justify-center">
             <div>
               <h2>Radio Communication</h2>
               <p>
