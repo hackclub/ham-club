@@ -7,22 +7,5 @@ At Hack Club we're re-imagining a new type of public education for technology. W
 
 Our goal is to build a new type of library online that offers learners not just media to consume but tools to create. And it is free and open source to all. We're just getting started...
 
-# Development
-
-Join the `#hamradio` channel on the [Hack Club Slack](https://hackclub.com/slack). 
-
-After installing `Git`, `Node.js`, and `NPM`, clone the repo.
-
-```
-git clone https://github.com/hackclub/ham-club/
-npm install
-```
-
-To run the development server:
-
-```
-npm run dev
-```
-
 # License
-Ham Club is open source and licensed under the [MIT License](https://github.com/hackclub/ham-club/LICENSE.md). Fork, remix, and make it your own! Pull requests and other contributions greatly appreciated.
+Ham Club is open source and licensed under the [MIT License](https://github.com/hackclub/ham-club/LICENSE.md). Fork, remix, and make it your own! Pull requests and other contributions are greatly appreciated.
