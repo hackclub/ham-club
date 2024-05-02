@@ -27,11 +27,12 @@ export default function Help() {
             <a href="https://www.kb6nu.com/study-guides/" className="underline">
               No-Nonsense Study Guides
             </a>{" "}
-            - This is a resource from KB6NU which aims to make studying for the exam quick and easy.{" "}
+            - This is a resource from KB6NU which aims to make studying for the
+            exam quick and easy.{" "}
           </li>
         </div>
         <h1 className="text-2xl text-white">
-          <u>Youtube Guides:</u>
+          <u>Video Guides:</u>
         </h1>
         <div className="text-white">
           <li>
@@ -55,7 +56,7 @@ export default function Help() {
           </li>
         </div>
         <h1 className="text-2xl text-white">
-          <u>Misc:</u>
+          <u>Miscellaneous:</u>
         </h1>
         <div className="text-white">
           <li>
@@ -68,7 +69,7 @@ export default function Help() {
           </li>
         </div>
         <h1 className="text-2xl text-white">
-          <u>After you study:</u>
+          <u>After You Study:</u>
         </h1>
         <div className="text-white">
           <li>
@@ -79,11 +80,26 @@ export default function Help() {
             local exam session.
           </li>
           <li>
-              <a href="https://apps.fcc.gov/cores/userLogin.do?csfrToken=" className="underline">
-                FCC FRN Registration
-              </a>{" "}
-              - Once you finish studying, you will need to get an FRN from the FCC in order to start the test in the first place.
-              You will need to register with the FCC in order to do this!
+            <a
+              href="https://apps.fcc.gov/cores/userLogin.do?csfrToken="
+              className="underline"
+            >
+              FCC FRN Registration
+            </a>{" "}
+            - Once you finish studying, you will need to get an FRN from the FCC
+            in order to start the test in the first place. You will need to
+            register with the FCC in order to do this!
+          </li>
+          <li>
+            <a
+              href="https://www.arrl.org/youth-licensing-grant-program"
+              className="underline"
+            >
+              ARRL Exam and FCC Reimbursement
+            </a>{" "}
+            - This is <b>needed for the program!</b> You will need to fill out this
+            form to get your money back for the exam and the FCC registration.
+            Note that Hack Club will not cover the reduced, $5 exam fee.
           </li>
         </div>
       </div>
