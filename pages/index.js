@@ -98,15 +98,19 @@ export default function Home() {
             </div>
           </div>
         </section>
-        <div className="flex flex-col items-center text-center pb-20">
-          <h1 className="text-4xl pb-5 text-black bold">Get started quick:</h1>
-          <a
-            href="https://forms.hackclub.com/t/4xrbpF32B8us"
-            target="_blank"
-            className="text-xl uppercase px-4 py-2 rounded-full border-white border-2 text-black bg-white hover:bg-black hover:text-white"
-          >
-            Join our online community 📻
-          </a>
+        <div className="flex flex-row justify-center items-center pb-20">
+          <div className="rounded-3xl text-center pb-10 pt-10 bg-[#FC7D47] px-20 border-[5px] border-white">
+            <h1 className="text-4xl pb-5 text-white bold">
+              Get started quick:
+            </h1>
+            <a
+              href="https://hackclub.com/slack/"
+              target="_blank"
+              className="text-xl uppercase px-4 py-2  rounded-full border-white border-2 text-black bg-white hover:bg-black hover:text-white"
+            >
+              Join our online community 📻
+            </a>
+          </div>
         </div>
       </main>
     </div>
