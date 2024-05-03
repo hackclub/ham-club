@@ -7,13 +7,23 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="dark:text-white dark:bg-black">
-      <HeadObject />
+      {/* <HeadObject />
       <Link href="https://hackclub.com">
         <img
           src="https://assets.hackclub.com/flag-orpheus-top.svg"
           className="absolute top-0 left-8 w-1/4 md:w-[14%]"
         />
-      </Link>
+      </Link> */}
+
+      <div>
+        <a class="banner mx-auto ml-2 z-50" href="https://hackclub.com/">
+          <img
+            src="https://contribute.hackclub.com/images/flag-orpheus-top.png"
+            alt="Hack Club Logo"
+          ></img>
+        </a>
+      </div>
+
       <main>
         <section id="hero" className="flex flex-col items-center relative">
           <div className="my-24 flex flex-col gap-4 items-center text-center z-10">
