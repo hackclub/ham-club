@@ -93,7 +93,12 @@ export default function Home() {
                 Want to jump right in? Check out our{" "}
                 <a href="/help" className="underline">
                   list of ham radio resources and FAQs!
+                </a>{" "}
+                Want to learn about the application process? Check out our{" "}
+                <a href="/process" className="underline">
+                  guide
                 </a>
+                .
               </p>
             </div>
           </div>
