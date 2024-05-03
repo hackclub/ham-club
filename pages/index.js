@@ -54,7 +54,7 @@ export default function Home() {
               </p>
             </div>
             <div>
-              <h2>UV-K5 Radio</h2>
+              <h2>UV-K6 Radio</h2>
               <p>
                 Upon passing your exam, we'll send you a UV-K5 radio for
                 hands-on experience in the world of ham radio.
