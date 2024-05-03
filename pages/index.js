@@ -73,10 +73,10 @@ export default function Home() {
               </p>
             </div>
             <div>
-              <h2>UV-K5 Radio</h2>
+              <h2>UV-K6 Radio</h2>
               {/* This is a bit repetitive! Should we combine the one before this with this one? */}
               <p>
-                Upon passing your exam, we'll send you a UV-K5 radio for
+                Upon passing your exam, we'll send you a UV-K6 radio for
                 hands-on experience in the world of ham radio.
               </p>
             </div>
