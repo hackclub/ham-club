@@ -61,10 +61,10 @@ export default function Home() {
               </p>
             </div>
             <div>
-              <h2>Ham Radio Community</h2>
+              <h2>By Hack Club</h2>
               <p>
-                Ham radio isn't just a hobby—it helps during emergencies, in
-                local events, and makes connections that last a lifetime.
+                Hack Club is a nonprofit helping technical high schoolers around the world. 
+                Collaborate, get help, and <a href="https://hackclub.com/slack">support others as you get on the air</a>.
               </p>
             </div>
             <div>
