@@ -4,7 +4,7 @@ export default function HeadObject({ children }) {
   const title = "Ham Club";
   const description = "Earn Your Callsign, Get a Free Radio.";
   const url = "https://ham.hackclub.com";
-  const iconUrl = "/ham2.jpg";
+  const iconUrl = "/antenna1.png";
 
   return (
     <Head>

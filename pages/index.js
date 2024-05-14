@@ -68,8 +68,8 @@ export default function Home() {
             <div>
               <h2>Radio Grant</h2>
               <p>
-                If you pass the test by May 31st, we will cover your first
-                radio! Note that Hack Club will not cover the $5 exam fee.
+                If you pass your test by May 31st, we'll send you a ham radio!
+                (Note: this is for people under Middle/High Schoolers only!)
               </p>
             </div>
             <div>
@@ -93,12 +93,7 @@ export default function Home() {
                 Want to jump right in? Check out our{" "}
                 <a href="/help" className="underline">
                   list of ham radio resources and FAQs!
-                </a>{" "}
-                Want to learn about the application process? Check out our{" "}
-                <a href="/process" className="underline">
-                  guide
                 </a>
-                .
               </p>
             </div>
           </div>
