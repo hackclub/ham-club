@@ -1,14 +1,11 @@
-# Perfect
-The best Next.js boilerplate ever.
-# What does this have?
-- Tailwind CSS (no more going through the installation guide!) - for styling components easily
-- `next-themes` (@pacocoursey) - for going to the dark side
-- `swr` (@vercel) - for fetching constantly mutating data
-  - `fetcher.js` so you don't have to keep writing return functions
-- `framer-motion` - for making interactive components and eye-catching animations
-- `react-icons` - for including your favorite icon packs without increasing bundle size significantly. Tree shaking included.
-- `classnames` - for conditionally applying classes to components
-- `react-wrap-balancer` - for balancing text widths for titles and paragraphs
-- `tailwind-merge` - for merging Tailwind class names
+# Ham Club - A New YSWS from Hack Club
+Ham Club is a program for teens in the US running from April 29th to May 31st, allowing youth to get their ham radio license and then receive a free ham radio!
 
-&copy; 2021 Sarthak Mohanty. Licensed under the [Unlicense](LICENSE) from Mozilla.
+# You Ship, We Ship
+
+At Hack Club we're re-imagining a new type of public education for technology. We believe people learn best by creating things they care about and sharing them with others. We build open source creative tools with young people all around the world. These tools are gateways to new subjects in technology like [embedded systems](https://sprig.hackclub.com), [circuits](https://onboard.hackclub.com) or digital fabrication robotics. When teenagers build things with our tools we send them more creative materials for free. 
+
+Our goal is to build a new type of library online that offers learners not just media to consume but tools to create. And it is free and open source to all. We're just getting started...
+
+# License
+Ham Club is open source and licensed under the [MIT License](https://github.com/hackclub/ham-club/LICENSE.md). Fork, remix, and make it your own! Pull requests and other contributions are greatly appreciated.
