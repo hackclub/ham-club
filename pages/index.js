@@ -118,10 +118,8 @@ export default function Home() {
         </div>
       </main>
       <footer className="text-center dark:bg-gray-800 lg:text-left">
-        <div className="bg-black/5 p-4 text-center text-surface dark:text-black">
-          <p>
-            A project by <b>Hack Club</b>.
-          </p>
+        <div className="bg-black/5 p-4 text-center text-surface dark:text-black text-center">
+          <h2>A project by Hack Club.</h2>
           <span>
             {" "}
             Hack Club is a registered 501(c)3 nonprofit organization that
@@ -129,11 +127,21 @@ export default function Home() {
             learn best by building when you're learning and shipping technical
             projects with your friends, so we've started You Ship, We Ship, a
             program where you ship a technical project and we ship you something
-            in exchange. In the past few years, we [fabricated custom PCBs
-            designed by 265 teenagers](https://hackclub.com/onboard), [hosted
-            the world's longest hackathon on
-            land](https://github.com/hackclub/the-hacker-zephyr), and [gave away
-            $75k of hardware](https://hackclub.com/winter).
+            in exchange. In the past few years,
+            <a className="underline" href="https://hackclub.com/onboard">
+              we fabricated custom PCBs designed by 265 teenagers,
+            </a>{" "}
+            <a
+              className="underline"
+              href="https://github.com/hackclub/the-hacker-zephyr"
+            >
+              hosted the world's longest hackathon on land
+            </a>
+            <span> and </span>
+            <a className="underline" href="https://hackclub.com/winter">
+              gave away $75k of hardware
+            </a>{" "}
+            .
           </span>
         </div>
       </footer>
