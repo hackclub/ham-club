@@ -3,21 +3,22 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: 'Cute Notes';
-  src: url('/CuteNotes.woff2')  format('woff2');
+  font-family: "Cute Notes";
+  src: url("/CuteNotes.woff2") format("woff2");
 }
 
 html {
   color: #ffffff;
-  background: radial-gradient(50% 50% at 50% 50%, #FC7D47 0%, #FC6447 100%);
+  background: radial-gradient(50% 50% at 50% 50%, #fc7d47 0%, #fc6447 100%);
   font-family: "Arial Rounded MT Bold", sans-serif;
 }
 
 main {
-  background-image: url('/buildings.png');
+  background-image: url("/buildings.png");
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
+  @apply overflow-hidden;
 }
 
 div > h2 {
@@ -38,13 +39,15 @@ div#grid > div {
 
 /* Fixes Tailwind h-screen on iPhones */
 @supports (-webkit-touch-callout: none) {
-    .h-screen {
-      height: -webkit-fill-available;
-    }
+  .h-screen {
+    height: -webkit-fill-available;
   }
+}
 
 /* Fixes outline style for inputs on Safari */
-input:focus { outline: none; }
+input:focus {
+  outline: none;
+}
 
 .banner {
   position: fixed;

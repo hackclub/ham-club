@@ -16,7 +16,7 @@ export default function Home() {
       </Link> */}
 
       <div>
-        <a class="banner mx-auto ml-2 z-50" href="https://hackclub.com/">
+        <a className="banner mx-auto ml-2 z-50" href="https://hackclub.com/">
           <img
             src="https://contribute.hackclub.com/images/flag-orpheus-top.png"
             alt="Hack Club Logo"
@@ -83,8 +83,12 @@ export default function Home() {
             <div>
               <h2>By Hack Club</h2>
               <p>
-                Hack Club is a nonprofit helping technical high schoolers around the world. 
-                Collaborate, get help, and <a href="https://hackclub.com/slack">support others as you get on the air</a>.
+                Hack Club is a nonprofit helping technical high schoolers around
+                the world. Collaborate, get help, and{" "}
+                <a href="https://hackclub.com/slack">
+                  support others as you get on the air
+                </a>
+                .
               </p>
             </div>
             <div>
@@ -113,6 +117,26 @@ export default function Home() {
           </div>
         </div>
       </main>
+      <footer className="text-center dark:bg-gray-800 lg:text-left">
+        <div className="bg-black/5 p-4 text-center text-surface dark:text-black">
+          <p>
+            A project by <b>Hack Club</b>.
+          </p>
+          <span>
+            {" "}
+            Hack Club is a registered 501(c)3 nonprofit organization that
+            supports a network of 20k+ technical high schoolers. We believe you
+            learn best by building when you're learning and shipping technical
+            projects with your friends, so we've started You Ship, We Ship, a
+            program where you ship a technical project and we ship you something
+            in exchange. In the past few years, we [fabricated custom PCBs
+            designed by 265 teenagers](https://hackclub.com/onboard), [hosted
+            the world's longest hackathon on
+            land](https://github.com/hackclub/the-hacker-zephyr), and [gave away
+            $75k of hardware](https://hackclub.com/winter).
+          </span>
+        </div>
+      </footer>
     </div>
   );
 }
