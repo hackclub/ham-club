@@ -48,11 +48,17 @@ export default function Home() {
               get a free radio
             </p>
             <span
-              aria-disabled="true"
-              className="uppercase px-4 py-2 rounded-full border-white border-2 text-center pointer-events-none opacity-50 cursor-not-allowed"
-            >
-              Get your radio! 📻
-            </span>
+  aria-disabled="true"
+  className="uppercase px-4 py-2 rounded-full border-white border-2 text-center pointer-events-none opacity-50 cursor-not-allowed"
+>
+  Get your radio! 📻
+</span>
+<div className="w-fit max-w-[16rem] mx-auto mt-2 px-3 py-1.5 rounded-lg bg-[#FC7D47] text-white text-xs text-center">
+  This program has ended.{" "}
+  <a href="https://hackclub.com/programs" className="underline font-bold">
+    See current programs
+  </a>
+</div>
           </div>
         </section>
         <section className="h-fit py-16 w-screen">
