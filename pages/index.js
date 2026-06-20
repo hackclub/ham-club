@@ -7,6 +7,16 @@ import Link from "next/link";
 export default function Home() {
   return (
     <div className="dark:text-white dark:bg-black">
+      {/* Program-ended notice banner */}
+      <div className="fixed top-0 inset-x-0 z-[100] bg-[#FC7D47] text-white text-center text-sm sm:text-base px-4 py-3 shadow-md">
+        This program has ended and content may not be up-to-date. Check out
+        current programs at{" "}
+        <a href="https://hackclub.com/programs" className="underline font-bold">
+          hackclub.com/programs
+        </a>
+        .
+      </div>
+
       {/* <HeadObject />
       <Link href="https://hackclub.com">
         <img
@@ -37,13 +47,12 @@ export default function Home() {
               <br />
               get a free radio
             </p>
-            <a
-              href="https://forms.hackclub.com/t/4xrbpF32B8us"
-              target="_blank"
-              className="uppercase px-4 py-2 rounded-full border-white border-2 text-center hover:bg-white hover:text-black"
+            <span
+              aria-disabled="true"
+              className="uppercase px-4 py-2 rounded-full border-white border-2 text-center pointer-events-none opacity-50 cursor-not-allowed"
             >
               Get your radio! 📻
-            </a>
+            </span>
           </div>
         </section>
         <section className="h-fit py-16 w-screen">
